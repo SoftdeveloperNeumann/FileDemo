@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
     private val TAG = "FileDemo"
-    private val FileNameMap = "$TAG.txt"
+    private val FILENAME = "$TAG.txt"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
